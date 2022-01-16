@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="style/style.css">
+    <script src="audio.js"></script>  
+    <script src="howler.min.js"></script>
+    <script type="module" src="main.js"></script>
+    <title>Document</title>
+</head>
+<body> 
+
+    <div id="info">
+        
+        <div id = "score-row">
+                Score:
+        <div id="score"></div>
+        </div>
+         <div class="divider"></div>
+        <div id = "health-row">
+            Health:
+           
+            <div id="health-icons">
+
+                
+            </div>
+        </div>
+        </div>
+        <div id="intro-panel" class="visible">
+            <div class="container">
+                <div id="intro-tittle">SPEEED</div>
+                <button id="start-game">START</button>
+            </div>
+        </div>
+
+        <div id="game-over-panel" class="visible">
+            <div class="container">
+                <div id="game-over-tittle">Game over</div>
+                <div id="game-over-score-row"> 
+                    Score: 
+                    <div id="game-over-score"></div>
+                </div>
+                <button id="restart-game">Replay</button>
+            </div>
+        </div>
+       
+</body>
+</html>
+
+

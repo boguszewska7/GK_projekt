@@ -1,0 +1,11 @@
+Model Information:
+* title:	UXR ASCII Palm Tree
+* source:	https://sketchfab.com/3d-models/uxr-ascii-palm-tree-1825373b79d9491d9a03dd8374367670
+* author:	ENEA LE FONS (https://sketchfab.com/enealefons)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "UXR ASCII Palm Tree" (https://sketchfab.com/3d-models/uxr-ascii-palm-tree-1825373b79d9491d9a03dd8374367670) by ENEA LE FONS (https://sketchfab.com/enealefons) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

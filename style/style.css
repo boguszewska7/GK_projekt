@@ -1,0 +1,204 @@
+body {
+    
+    margin: 0;
+    font-family: 'VT323', monospace;
+    font-size: 24px;
+  }
+
+#info{
+  position: absolute;
+  color: #ffffff;
+  margin: 15px;
+  padding: 15px;
+  background-color: black;
+  width: 200px;
+  border: white 1px solid;
+}
+
+#score-row, 
+#health-row{
+  margin: 12px 0;
+  display: flex;
+}
+
+#health, 
+#score{
+  margin-left: 6px;
+}
+
+.divider{
+  width: 100%;
+  background-color: white;
+  height: 2px;
+  margin: 6px 0;
+}
+
+#info #health {
+  height: 12px;
+  -webkit-appearance: none;
+  margin: 4px;
+  width: 90%;
+}
+#info #health:focus {
+  outline: none;
+}
+
+#info #health::-moz-range-track {
+  width: 100%;
+  height: 12px;
+  background: #333333;
+}
+#info #health::-moz-range-thumb {
+  opacity: 0;
+}
+#info #health::-moz-range-progress {
+  height: 12px;
+  background: #4194e2;
+}
+
+#info #health::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 12px;
+  background: #333333;
+  overflow: hidden;
+}
+
+#info #health::-webkit-slider-runnable-track {
+  height: 12px;
+  -webkit-appearance: none;
+  background: #333333;
+  margin-top: -1px;
+}
+
+#info #health::-webkit-slider-thumb {
+  width: 0;
+  -webkit-appearance: none;
+  height: 12px;
+  cursor: ew-resize;
+  background: transparent;
+  box-shadow: -100px 0 0 100px #FF00E7;
+}
+#game-over-panel,
+#intro-panel{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  position: absolute;
+  place-items: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(5, 0, 0, 0.76);
+  backdrop-filter: blur( 4px );
+  color: #ffffff;
+  z-index: 10;
+  
+}
+
+#game-over-panel{
+  display: none;
+}
+
+.animation{
+  animation: fadeOut 1s;
+  visibility: hidden;
+}
+#game-over-panel .container,
+#intro-panel .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#game-over-panel #game-over-tittle,
+#intro-panel #intro-tittle{
+  padding-bottom:100px ;
+  font-size: 100px;
+}
+#game-over-panel #restart-game,
+#intro-panel #start-game{
+  justify-content: center;
+  padding: 12px 15px;
+  border: #ffffff;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: 'VT323', monospace;
+  transition: 500ms ease;
+}
+#restart-game:hover,
+#start-game:hover {
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+  backdrop-filter: blur( 6.5px );
+  -webkit-backdrop-filter: blur( 6.5px );
+  border-radius: 0px;
+  -webkit-backdrop-filter: blur( 6.5px );
+  -webkit-box-shadow: 0px 0px 88px 39px #1f41465b;
+  -moz-box-shadow: 0px 0px 88px 39px #1f41465b;
+  box-shadow: 0px 0px 10px 10px #1f41465b;
+  background-color: #FF00E7;
+  cursor: pointer;
+  color: #eee;
+}
+
+#game-over-score-row{
+  display: flex;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 0;
+    transform: rotateX(0);
+  }
+}
+
+@keyframes fadeOut {
+
+  from {
+    opacity: 0.76;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 0;
+    transform: rotateX(0);
+  }
+}
+
+.score-popup {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: score-popup 2s ease-in-out;
+  animation-iteration-count: 1;
+  font-size: 30px;
+  color: rgb(255, 164, 250);
+}
+
+@keyframes score-popup{
+  0%{
+    top: 33%;
+    opacity: 1;
+  }
+  100%{
+    top: 25%;
+    opacity: 0;
+  }
+}
+
+.icon{
+  width: 30px;
+  padding-left: 5px;
+
+}
+
+#health-icons{
+  display: flex;
+}
+

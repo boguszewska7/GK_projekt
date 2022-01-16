@@ -1,0 +1,11 @@
+Model Information:
+* title:	Artemis X-3000
+* source:	https://sketchfab.com/3d-models/artemis-x-3000-d720fe96323f49e4ae39c6a3729cbf95
+* author:	Autonarch (https://sketchfab.com/Autonarch)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Artemis X-3000" (https://sketchfab.com/3d-models/artemis-x-3000-d720fe96323f49e4ae39c6a3729cbf95) by Autonarch (https://sketchfab.com/Autonarch) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

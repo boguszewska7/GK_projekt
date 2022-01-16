@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stack Of Dollars
+* source:	https://sketchfab.com/3d-models/stack-of-dollars-1e60034e5d4445c6a8804d5e9bba0d8c
+* author:	ʜᴀᴄᴋᴇʀ (https://sketchfab.com/infohack)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stack Of Dollars" (https://sketchfab.com/3d-models/stack-of-dollars-1e60034e5d4445c6a8804d5e9bba0d8c) by ʜᴀᴄᴋᴇʀ (https://sketchfab.com/infohack) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
